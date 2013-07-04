@@ -1,0 +1,5 @@
+---
+title: Applications
+layout: default
+---
+...
