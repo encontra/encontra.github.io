@@ -36,7 +36,9 @@ navigation:
              <a {% if page.url == link.url %}class="current"{% endif %} href="{{link.url}}" title="{{link.title}}">{{link.text}}</a>
           {% endfor %}
           <li><a href="https://github.com/encontra" target="_blank">Code @ GitHub</a></li>
-          <li><a href="https://drone.io/github.com/encontra/encontra/latest" target="_blank"><img alt="Build Status " src="https://drone.io/github.com/encontra/encontra/status.png"/></a></li>
+          <li><a href="https://encontra.ci.cloudbees.com/" target="_blank">
+            <img src="http://cloudbees.prod.acquia-sites.com/sites/default/files/styles/large/public/Button-Built-on-CB-1.png?itok=3Tnkun-C" style="width:128px">
+          </a></li>
         </ul>
 
       </header>
