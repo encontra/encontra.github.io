@@ -1,0 +1,36 @@
+- name: Core
+  description: Core class and API
+  project: encontra-core
+- name: Indexes
+  description: Indexes
+  project: encontra-index
+- name: Storage
+  description: Supported storage
+  project: encontra-storage
+- name: Image
+  description: Image retrieval descriptors
+  project: encontra-image
+- name: Drawings
+  description: Vector drawings descriptors
+  project: encontra-drawing
+- name: Conversion
+  description: Conversion helpers
+  project: encontra-convert
+- name: Metadata
+  description: Metadata extraction
+  project: encontra-metadata
+- name: Graph
+  description: Graph descriptors
+  project: encontra-graph
+- name: Music
+  description: Music descriptors
+  project: encontra-music
+- name: 3D
+  description: 3D model descriptors
+  project: encontra-3d
+- name: Services
+  description: Polygon detection and vectorization services
+  project: encontra-service
+- name: REST
+  description: REST API
+  project: encontra-rest
